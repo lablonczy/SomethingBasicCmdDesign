@@ -1,5 +1,17 @@
 package SomethingBasicCmdDesign;//lukacs ablonczy
 
-public class SaveCommand {
+/**
+ * @author Lukacs Ablonczy
+ * @author Taylor Norton
+ * @author Jyles Tygra
+ */
+public class SaveCommand implements Command{
 
+	public SaveCommand(Document doc){
+
+	}
+
+	public void execute() {
+
+	}
 }

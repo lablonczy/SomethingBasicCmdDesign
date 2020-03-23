@@ -1,5 +1,17 @@
 package SomethingBasicCmdDesign;//lukacs ablonczy
 
-public class PrintCommand {
+/**
+ * @author Lukacs Ablonczy
+ * @author Taylor Norton
+ * @author Jyles Tygra
+ */
+public class PrintCommand implements Command {
 
+	public PrintCommand(Document doc){
+
+	}
+
+	public void execute() {
+
+	}
 }

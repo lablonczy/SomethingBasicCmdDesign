@@ -1,5 +1,12 @@
 package SomethingBasicCmdDesign;//lukacs ablonczy
 
-public class Command {
+/**
+ * @author Lukacs Ablonczy
+ * @author Taylor Norton
+ * @author Jyles Tygra
+ */
+public interface Command {
+
+	public void execute();
 
 }
