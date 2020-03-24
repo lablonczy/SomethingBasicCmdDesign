@@ -11,13 +11,13 @@ package SomethingBasicCmdDesign;
 public class PrintCommand implements Command {
 
 	private Document doc;
-	
+
 	/**
 	 * Constructs a PrintCommand.
 	 * 
 	 * @param doc - A variable of type Document.
 	 */
-	public PrintCommand(Document doc){
+	public PrintCommand(Document doc) {
 		this.doc = doc;
 	}
 

@@ -7,23 +7,23 @@ package SomethingBasicCmdDesign;
  */
 public class Document {
 
-	public Document(String name){
+	public Document(String name) {
 
 	}
 
-	public void load(){
+	public void load() {
 
 	}
 
-	public void spell(){
+	public void spell() {
 
 	}
 
-	public void save(){
+	public void save() {
 
 	}
 
-	public void print(){
+	public void print() {
 
 	}
 

@@ -11,7 +11,8 @@ package SomethingBasicCmdDesign;
 public interface Command {
 
 	/**
-	 * An abstract method representing the execution of a command depeneding on the kind of command.
+	 * An abstract method representing the execution of a command depeneding on the
+	 * kind of command.
 	 */
 	public void execute();
 

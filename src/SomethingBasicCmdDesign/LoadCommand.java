@@ -11,13 +11,13 @@ package SomethingBasicCmdDesign;
 public class LoadCommand implements Command {
 
 	private Document doc;
-	
+
 	/**
 	 * Constructs a LoadCommand.
 	 * 
 	 * @param doc - A variable of type Document.
 	 */
-	public LoadCommand(Document doc){
+	public LoadCommand(Document doc) {
 		this.doc = doc;
 	}
 

@@ -8,16 +8,16 @@ package SomethingBasicCmdDesign;
  * @author Jyles Tygra
  * @version 1.0
  */
-public class SaveCommand implements Command{
+public class SaveCommand implements Command {
 
 	private Document doc;
-	
+
 	/**
 	 * Constructs a SaveCommand.
 	 * 
 	 * @param doc - A variable of type Document.
 	 */
-	public SaveCommand(Document doc){
+	public SaveCommand(Document doc) {
 		this.doc = doc;
 	}
 

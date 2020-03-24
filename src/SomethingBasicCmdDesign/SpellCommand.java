@@ -1,7 +1,8 @@
 package SomethingBasicCmdDesign;
 
 /**
- * SpellCommand.java - A class that represents a command that spell-checks a document.
+ * SpellCommand.java - A class that represents a command that spell-checks a
+ * document.
  * 
  * @author Lukacs Ablonczy
  * @author Taylor Norton
@@ -11,13 +12,13 @@ package SomethingBasicCmdDesign;
 public class SpellCommand implements Command {
 
 	private Document doc;
-	
+
 	/**
 	 * Constructs a SaveCommand.
 	 * 
 	 * @param doc - A variable of type Document.
 	 */
-	public SpellCommand(Document doc){
+	public SpellCommand(Document doc) {
 		this.doc = doc;
 	}
 
