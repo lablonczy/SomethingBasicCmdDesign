@@ -23,8 +23,8 @@ public class InputHandler {
 	public InputHandler(Document document) {
 		commands = new HashMap<>();
 		commands.put("load", new LoadCommand(document));
-		commands.put("save", new SpellCommand(document));
-		commands.put("spell", new SaveCommand(document));
+		commands.put("save", new SaveCommand(document));
+		commands.put("spell", new SpellCommand(document));
 		commands.put("print", new PrintCommand(document));
 	}
 
@@ -40,7 +40,7 @@ public class InputHandler {
 			return;
 		}
 
-		commands.get(data);
+		commands.get(data).execute();
 	}
 
 	/**
