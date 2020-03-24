@@ -6,16 +6,17 @@ import java.util.HashMap;
  * @author Lukacs Ablonczy
  * @author Taylor Norton
  * @author Jyles Tygra
- * <p>
- * Defines Input handler, uses hash map to store valid commands and responses to them
+ *         <p>
+ *         Defines Input handler, uses hash map to store valid commands and
+ *         responses to them
  */
 public class InputHandler {
 
 	private HashMap<String, Command> commands;
 
-
 	/**
-	 * Constructor for InputHandler class, defines valid commands and responses to them
+	 * Constructor for InputHandler class, defines valid commands and responses to
+	 * them
 	 *
 	 * @param document Document type on which to run the given command
 	 */
@@ -28,7 +29,8 @@ public class InputHandler {
 	}
 
 	/**
-	 * Runs valid command given by param using hash lookup, exits method if not valid
+	 * Runs valid command given by param using hash lookup, exits method if not
+	 * valid
 	 *
 	 * @param data the command to run
 	 */
@@ -42,7 +44,8 @@ public class InputHandler {
 	}
 
 	/**
-	 * Checks validity of command by comparing given string while ignoring case and leading spaces
+	 * Checks validity of command by comparing given string while ignoring case and
+	 * leading spaces
 	 *
 	 * @param toCheck The command that will be checked for validity
 	 * @return Whether the given command is equal to any of the four valid commands

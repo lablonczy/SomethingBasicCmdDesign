@@ -46,5 +46,4 @@ public class Document {
 	public void print(){
 		System.out.println("document " + name + " is printing...");
 	}
-
 }
